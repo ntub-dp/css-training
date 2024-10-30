@@ -1,0 +1,55 @@
+.A1 {
+  grid-area: A1;
+}
+
+.A2 {
+  grid-area: A2;
+}
+
+.A3 {
+  grid-area: A3;
+}
+
+.cat {
+  grid-area: cat;
+}
+
+.B1 {
+  grid-area: B1;
+}
+
+.E123 {
+  grid-area: E123;
+}
+
+.B2 {
+  grid-area: B2;
+}
+
+.C1 {
+  grid-area: C1;
+}
+
+.C2 {
+  grid-area: C2;
+}
+
+.D1 {
+  grid-area: D1;
+}
+
+.D2 {
+  grid-area: D2;
+}
+
+.D3 {
+  grid-area: D3;
+}
+
+.F1 {
+  grid-area: F1;
+}
+
+.ZZ {
+  grid-area: ZZ;
+}
