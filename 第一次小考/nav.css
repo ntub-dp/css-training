@@ -1,0 +1,45 @@
+* {
+  margin: 0; /* 外距 */
+  padding: 0; /* 內距 */
+  box-sizing: border-box;
+
+  font-family: "微軟正黑體";
+}
+
+nav {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav h1 {
+  /* margin: 10px 20px 30px 40px;  上 top 右right 下bottom 左left */
+  /* margin: 0 0; 上下 左右 */
+  /* margin: 0; 上下左右 */
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none; /* 把前面的點拿掉 */
+  gap: 20px; /* 間隔 */
+
+  justify-content: center; /* 水平:置中 */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none; /* 把底線拿掉 */
+  font-weight: bold;
+}
+
+nav a:hover {
+  /* a標題hover的時人候 hover:滑過的時候 */
+  color: #e65f4c;
+}
+
+main {
+  background: #f4f4f4;
+  padding: 20px;
+  min-height: 95vh;
+}

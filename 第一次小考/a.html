@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Grid Layout</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      td {
+        width: 250px;
+        height: 80px;
+        text-align: center;
+        border: 5px solid #fff;
+        outline: 4px solid #06143e;
+        outline-offset: 2px;
+      }
+      .A1 {
+        background-color: #ff6f5e;
+      }
+      .A2 {
+        background-color: #4d91c6;
+      }
+      .A3 {
+        background-color: #44b07b;
+      }
+      .B1 {
+        background-color: #a29250;
+      }
+      .image {
+        background-color: #f2aa31;
+        text-align: center;
+      }
+      .image img {
+        width: 150px;
+      }
+      .E1 {
+        background-color: #e68987;
+      }
+      .B2 {
+        background-color: #d281d8;
+      }
+      .C1 {
+        background-color: #8f75c5;
+      }
+      .C2 {
+        background-color: #76a1c8;
+      }
+      .D1 {
+        background-color: #4ca3a1;
+      }
+      .D2 {
+        background-color: #e94343;
+      }
+      .D3 {
+        background-color: #78c5e3;
+      }
+      .F1 {
+        background-color: #23a587;
+      }
+    </style>
+  </head>
+  <body>
+    <a target="_parent" href="./contact.html">1234</a>
+    <table>
+      <tr>
+        <td class="A1" colspan="2">A1</td>
+        <td class="A2" colspan="1">A2</td>
+      </tr>
+      <tr>
+        <td class="A3" colspan="1">A3</td>
+        <td rowspan="2" class="image" colspan="2">
+          <img src="./assets/images/cat.jpeg" alt="Cat Image" />
+        </td>
+      </tr>
+      <tr>
+        <td class="B1" colspan="1">B1</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="E1">E1, E2, E3</td>
+      </tr>
+      <tr>
+        <td class="B2" colspan="1">B2</td>
+        <td class="C1" colspan="1">C1</td>
+        <td class="C2" colspan="1">C2</td>
+      </tr>
+      <tr>
+        <td class="D1" colspan="1">D1</td>
+        <td class="D2" colspan="1">D2</td>
+        <td class="D3" colspan="1">D3</td>
+      </tr>
+      <tr>
+        <td colspan="1" class="F1">F1</td>
+      </tr>
+    </table>
+  </body>
+</html>

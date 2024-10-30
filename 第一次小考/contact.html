@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>國立臺北商業大學</title>
+    <link rel="stylesheet" href="./nav.css" />
+    <style>
+      h2 {
+        color: #333; /* 設定 h2 標題的文字顏色為 #333 */
+        margin: 20px 0; /* 設定 h2 標題的上下外距為 20px */
+      }
+      p {
+        margin: 20px 0; /* 設定段落的上下外距為 10px */
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      form{
+        background: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 330px;
+      }
+      input,
+      select {
+        margin: 10px 0;
+        display: block;
+        width: 100%;
+      }
+      input[type="radio"] {
+        display: inline;
+        width: auto;
+      }
+      textarea{
+        display: block;
+        width: 100%;
+
+      }
+      form p {
+        margin: 5px 0; /* 設定段落的上下外距為 10px */
+      }
+
+      button{
+        background: #444;
+        color:#fff;
+        width: 100%;
+        padding: 10px 25px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover{
+        background: #ff6347;
+        border-color: #ff6347;
+      }
+    </style>
+  </head>
+  <body>
+    <nav align="center">
+      <h1>臺北商業大學系所介紹</h1>
+
+      <!-- ul>li*4>a -->
+      <ul>
+        <li><a href="./index.html">介紹</a></li>
+        <li><a href="./major.html">系所簡介</a></li>
+        <li><a href="./teacher.html">教師資訊</a></li>
+        <li><a href="./contact.html">聯繫方式</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>關於我</h2>
+      <p>大家好！我是北商資管系的學生，我的專業是網頁設計</p>
+      <form>
+        <p>
+          姓名：
+          <input type="text" required>
+        </p>
+        <p>
+          您是：
+          <p>
+            <input type="radio" name="sex" required />
+          帥哥
+          <input type="radio" name="sex" required style="margin-left: 20px" />
+          美女
+          </p>
+        </p>
+        <p>
+          選擇系所：
+          <select name="" id="">
+            <option value="資訊管理系">資訊管理系</option>
+            <option value="財務金融系">財務金融系</option>
+            <option value="國際貿易系">國際貿易系</option>
+            <option value="企業管理系">企業管理系</option>
+          </select>
+        </p>
+        <p>
+          選擇日期：
+          <input type="date" required/>
+        </p>
+
+        <p>
+          選擇時間：
+          <input type="time" required />
+        </p>
+
+        <p>
+          電子郵件
+          <input type="email" required />
+        </p>
+
+        <p>
+          加密訊息：
+          <input type="password" required />
+        </p>
+
+        <p>
+          您的留言：
+          <textarea name="" id="" rows="4" required></textarea>
+        </p>
+
+        <button>提交</button>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>國立臺北商業大學</title>
+    <link rel="stylesheet" href="./nav.css" />
+    <style>
+      h2 {
+        color: #666; /* 設定 h2 標題的文字顏色為 #666 */
+        margin: 20px 0; /* 設定 h2 標題的上下外距為 20px */
+      }
+      p {
+        margin: 10px 0; /* 設定段落的上下外距為 10px */
+      }
+      img {
+        border-radius: 50%; /* 設定圖片的邊框圓角為 50% */
+        width: 130px; /* 設定圖片的寬度為 130px */
+      }
+      table {
+        width: 100%; /* 設定表格的寬度為 100% */
+        border-collapse: collapse; /* 設定表格邊框合併 */
+      }
+      th,
+      td {
+        padding: 10px; /* 設定表格單元格的內距為 10px */
+        text-align: left; /* 設定表格單元格的文字對齊方式為左對齊 */
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav align="center">
+      <h1>臺北商業大學系所介紹</h1>
+      
+      <!-- ul>li*4>a -->
+      <ul>
+        <li><a href="./index.html">介紹</a></li>
+        <li><a href="./major.html">系所簡介</a></li>
+        <li><a href="./teacher.html">教師資訊</a></li>
+        <li><a href="./contact.html">聯繫方式</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>關於我</h2>
+      <p>大家好！我是北商資管系的學生，我的專業是網頁設計</p>
+      <img src="./assets/images/images.png" alt="" />
+      <h2>技能</h2>
+      <li>
+        HTML/CSS：能夠撰寫符合標準的 HTML5 頁面，並使用 CSS3
+        完成美觀的樣式設計。
+      </li>
+      <li>JavaScript：熟悉 JavaScript 語言，能夠開發互動性網頁。</li>
+      <li>React：掌握 React框架，能夠構建複雜的單頁應用程序。</li>
+
+      <h2>聯繫方式</h2>
+
+      <!-- table>tr*4>td*2 -->
+      <table border="1">
+        <tr>
+          <th>聯擊方式</th>
+          <th>內容</th>
+        </tr>
+        <tr>
+          <td>聯絡電話</td>
+          <td>(02)33222777</td>
+        </tr>
+        <tr>
+          <td>電子郵件</td>
+          <td>ntub1917@ntub.edu.tw</td>
+        </tr>
+        <tr>
+          <td>Link</td>
+          <td>
+            <a href="https://www.ntub.edu.tw" target="_blank">
+              國立臺北商業大學
+            </a>
+          </td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
