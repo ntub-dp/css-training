@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./main.css" />
-    <script src="./jquery.js"></script>
-    <script src="/jquery-ui.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/jquery-ui.min.js"></script>
   </head>
   <body>
     <div class="tree-container">
@@ -51,7 +51,7 @@
           img.style.position = "absolute";
           img.style.left = ui.offset.left - $(this).offset().left + "px";
           img.style.top = ui.offset.top - $(this).offset().top + "px";
-          img.className = 'decorate';
+          img.className = "decorate";
           ui.helper[0].remove();
           $(img).draggable({ revert: true });
           $(this).append(img);
