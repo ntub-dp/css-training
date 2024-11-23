@@ -5,8 +5,8 @@ let level = 0;
 snowBtn.addEventListener("click", () => {
   level++;
   renderShow();
-  if (level > 1) {
-    document.querySelectorAll(".snow").remove();
+  if (level === 4) {
+    window.open("https://www.youtube.com/watch?v=rdBF5seCfwg");
   }
 });
 
